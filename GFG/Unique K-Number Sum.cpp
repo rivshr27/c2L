@@ -3,7 +3,8 @@
 // #include<bits/stdc++.h>
 #include<vector>
 
-using namespace std;
+using namespace std; 
+
 
 using ll = long long;
 using pii = pair<int, int>;
@@ -16,7 +17,7 @@ using vb = vector<bool>;
 using vc = vector<char>;
 
 // using iiii = __int128;
- 
+
 // #if defined(__SIZEOF_INT128__)
 //     using iiii = __int128;
 // #else
@@ -61,10 +62,10 @@ class Solution {
                 a.pop_back();
             }
         }
-        
+
     }
-    
-    
+
+
     vector<vector<int>> combinationSum(int n, int k) {
         // code here
         vector<vector<int>> ans;
